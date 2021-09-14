@@ -8,6 +8,25 @@ Well, really it's a terrible shell script but you get my point. I'm not a develo
 NiceDoggy is a watchdog script for NiceHash OS (NHOS). It's functionality is relatively simple.
 
 
+
+***********************************************
+INSTALLATION
+
+1. If you do not already have one, create a directory called "scripts.sh" on the "nhos" partition of the USB drive or HD you boot from.
+2. Place "nicedoggy-install.sh" and "nicedoggy.code" into the folder.
+3. Reboot or run "nicedoggy-install.sh" from teh command line with "sudo sh nicedoggy-install.sh".
+
+
+The installer "nicedoggy-install.sh is the installer.
+The file "Nicedoggy.code" contains the actual code.
+
+The nicedoggy installer will put a copy of "nicedoggy.code" into /usr/local/bin/ with the name "nicedoggy".
+It will then place and entry into the root crontab to run the script every ten minutes. You can adjust this by changing the installer or simply editing the root crontab to you liking.
+
+
+
+
+
 Here is the code explained
 **************************
 
@@ -43,3 +62,8 @@ else
    # If everything is fine do nothing. NOTE: This does not go into the log so the log doesn't get enormous.
    echo "All cards functioning normally"
 fi
+
+
+
+
+
