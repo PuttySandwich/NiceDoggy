@@ -18,7 +18,7 @@ INSTALLATION
 
 
 The installer "nicedoggy-install.sh is the installer.
-The file "Nicedoggy.code" contains the actual code.
+The file "nicedoggy.code" contains the actual code.
 
 The nicedoggy installer will put a copy of "nicedoggy.code" into /usr/local/bin/ with the name "nicedoggy".
 It will then place and entry into the root crontab to run the script every ten minutes. You can adjust this by changing the installer or simply editing the root crontab to you liking.
