@@ -17,7 +17,7 @@ INSTALLATION
 3. Reboot or run "nicedoggy-install.sh" from the command line with "sudo sh nicedoggy-install.sh".
 
 
-The installer "nicedoggy-install.sh is the installer.
+The file "nicedoggy-install.sh" is the installer.
 The file "nicedoggy.code" contains the actual code.
 
 The nicedoggy installer will put a copy of "nicedoggy.code" into /usr/local/bin/ with the name "nicedoggy".
