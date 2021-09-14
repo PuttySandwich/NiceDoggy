@@ -13,8 +13,8 @@ NiceDoggy is a watchdog script for NiceHash OS (NHOS). It's functionality is rel
 INSTALLATION
 
 1. If you do not already have one, create a directory called "scripts.sh" on the "nhos" partition of the USB drive or HD you boot from.
-2. Place "nicedoggy-install.sh" and "nicedoggy.code" into the folder.
-3. Reboot or run "nicedoggy-install.sh" from teh command line with "sudo sh nicedoggy-install.sh".
+2. Place "nicedoggy-install.sh" and "nicedoggy.code" into the directory.
+3. Reboot or run "nicedoggy-install.sh" from the command line with "sudo sh nicedoggy-install.sh".
 
 
 The installer "nicedoggy-install.sh is the installer.
