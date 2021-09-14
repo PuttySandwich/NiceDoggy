@@ -1,7 +1,7 @@
 # NiceDoggy
 A watchdog script for NiceHash OS (NHOS)
 
-This is TERRIBLE code! It has a ton of unnecessary variable passing and I'm certain there are tight and more efficient ways of doing this. So please contribute!
+This is TERRIBLE code! It has a ton of unnecessary variable passing and I'm certain there are tighter and more efficient ways of doing this. So please contribute!
 
 Well, really it's a terrible shell script but you get my point. I'm not a developer, just a hack.
 
