@@ -7,6 +7,10 @@ Well, really it's a terrible shell script but you get my point. I'm not a develo
 
 NiceDoggy is a watchdog script for NiceHash OS (NHOS). It's functionality is relatively simple.
 
+
+Here is the code explained
+**************************
+
 #/bin/sh
 echo "Scanning for inactive cards";
 cd /var/log/nhos/nhm/miners/;
