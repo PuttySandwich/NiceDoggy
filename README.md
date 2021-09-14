@@ -46,7 +46,7 @@ x5=$(cat $x2 | grep -wns '======================================================
 # Strip out the period so it doesn't mess with the reading of the variable
 x6=$(echo $x5 | tr -d '.');
 
-# If "0.000" exists in the log a card must be at 0 hashrate
+# If "0000" exists in the log a card must be at 0 hashrate
 if [[ "$x6" = 0000 ]];
    then
    echo "Inactive card detected. Respawning miners"
