@@ -59,7 +59,8 @@ if [[ "$x6" = 0000 ]];
    sudo killall -HUP nhm3;
 else
 
-   # If everything is fine do nothing. NOTE: This does not go into the log so the log doesn't get enormous.
+   # If "0000" does not exist in the log, then everything is fine and the script will do nothing. 
+   # NOTE: This does not go into the log so the log doesn't use up too much of the nhos partition.
    echo "All cards functioning normally"
 fi
 
